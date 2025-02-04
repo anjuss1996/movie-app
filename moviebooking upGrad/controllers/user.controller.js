@@ -1,4 +1,3 @@
-// controllers/userController.js
 const User = require("../models/user.model");
 const Booking = require("../models/booking.model");
 const TokenGenerator = require("uuid-token-generator");

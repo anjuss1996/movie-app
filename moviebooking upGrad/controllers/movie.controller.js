@@ -1,5 +1,7 @@
 const Movie = require("../models/movie.model");
 
+// Controller to fetch movies
+
 exports.findAllMovies = async (req, res) => {
     try {
         const { status, title, genres, artists, start_date, end_date } = req.query;

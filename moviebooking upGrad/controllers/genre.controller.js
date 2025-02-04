@@ -1,5 +1,6 @@
 const Genre = require("../models/genre.model");
 
+// Controller to fetch all genres
 exports.findAllGenres = async (req, res) => {
     try {
         const genres = await Genre.find();
